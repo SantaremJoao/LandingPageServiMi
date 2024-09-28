@@ -1,0 +1,75 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+body {
+    background: linear-gradient(to right, #763838, #bf8661); /* Degradê do rosa para o amarelo */
+}
+
+p{
+    margin:  0;
+    font-family: "Shantell Sans", cursive;
+    font-weight: 800; /* Deixa o texto em negrito (bold) */
+    color: white;
+   
+}
+h1 {
+    font-family: "Shantell Sans", cursive;
+    font-weight: 800; /* Deixa o texto em negrito (bold) */
+    font-size: 100px;
+     /* Define o tamanho da fonte */
+     margin: 0; 
+     color: white;
+  }
+h2 {
+    font-family: "Shantell Sans", cursive;
+    font-weight: 700; /* Deixa o texto em negrito (bold) */
+    font-size: 35px; 
+    margin: 0; 
+    color: white; /* Define o tamanho da fonte */
+}
+
+#tituloCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 100px 0;
+}
+
+#atributosCard{
+    display: flex;    
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+}
+#atributosCard img{
+    width: 100px;    
+}
+#wirelessIcon{
+    padding-top: 18.17px;
+    padding-bottom: 18.17px;
+}
+#lojaCard {
+    display: flex;
+    justify-content: center;
+}
+#lojaCard img{
+
+    margin: 100px 10px 0 10px;
+}
+
+#info{
+    padding-top: 130px;
+    padding-left: 100px;
+}
+
+#Container{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+#imagem{
+    padding-top: 50px;
+}
